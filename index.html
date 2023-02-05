@@ -1,12 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is my portfolio startup</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="site-main-wrapper">
+      <button class="hamberger">
+        <img src="./images/hamberger.svg" alt="" />
+      </button>
+
+      <div class="mobile-nav">
+        <button class="times"><img src="./images/times.svg" alt="" /></button>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+  
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <a style="text-decoration: none; color: #3DCFD3" href="#"
+                  >ROBIN DHILLON
+                </a>
+                <!-- <img src="./images/logo.svg" alt="" /> -->
+              </div>
+              <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Skills</a>
+                <a href="#work">Work</a>
+                
+              </div>
+            </div>
+            <div class="right">
+              <button class="btn btn-primary">Contact</button>
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="./images/man.jpg" alt="" />
+            </div>
+            <div class="right flex-1">
+              <h6>Robin Dhillon</h6>
+              <h1>I’m a Creative <span>Java Backend Developer</span></h1>
+              <p>
+                Highly skilled and results-oriented professional having an
+experience of 1000+ hours of coding and 300+ hours of DSA.
+A proficient programmer in Java, JavaScript, and backend
+frameworks
+              </p>
+              <div>
+                <button class="btn btn-secondary">DOWNLOAD RESUME</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about" class="about">
+        <div class="container flex items-center about-inner-wrap">
+          <!-- <div class="flex-1">
+            <img class="about-me-img" src="./images/man-2.png" alt="" />
+          </div> -->
+          <div class="right">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello! i’m Robin Dhillon</h3>
+            <p>
+                I'm Ready to learn new technologies and software
+                quickly. A team player who provides valuable support in a
+                collaborative environment. Looking to start the career as
+                an entry-level Java Backend Developer with a reputed
+                firm driven by technology.
+                
+            </p>
+            <div class="social">
+              <a href="#"><img src="./images/website.png" alt="" /></a>
+              <a href="#"><img src="./images/facebook.png" alt="" /></a>
+              <a href="#"> <img src="./images/twitter.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services">
+        <div class="container">
+          <h1 class="section-heading">Skills</h1>
+          <p>Languages And Tools</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img
+                src="https://arjun-porfolio.vercel.app/assets/images/flaticon/html-5.png"
+                alt=""
+              />
+              <h2>HTML</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://arjun-porfolio.vercel.app/assets/images/flaticon/css-3.png"
+                alt=""
+              />
+              <h2>CSS</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://arjun-porfolio.vercel.app/assets/images/flaticon/js.png"
+                alt=""
+              />
+              <h2>JavaScript</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                style="background-color: red"
+                src="https://th.bing.com/th/id/OIP.VZYJGn2VK2FBE0t2tLvvrwHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                alt=""
+              />
+              <h2>Java</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="https://th.bing.com/th/id/OIP.YCdY8pRfjdOIUcBvccLpCgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                alt=""
+              />
+              <h2>Hibernate</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.s3twEa94SdRplbZY7lUWsgHaHa?w=181&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+              <h2>SpringBoot</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+                <img src="https://www.bing.com/th?id=OIP.tv49Gr7dCItRCOGu41_pUAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="">
+              <h2>MySQL</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+                <img src="https://th.bing.com/th?q=AWS+Cloud+Symbol&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
+              <h2>AWS</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+            <div class="card">
+                <img src="./images/postman.png" alt="">
+              <h2>Postman</h2>
+              <p>
+                There are many variations of passages of but the majority have
+                suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="freelancer">
+        <h1>An enthusiastic entry-level Java Backend Developer</h1>
+        <p>
+          Looking to start the career with a reputed firm driven by technology.
+        </p>
+        <button class="btn btn-primary">Download RESUME</button>
+      </section>
+
+      <section id="work" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>My</span> Works</h1>
+          <p>
+            We provide high standar clean website for your business solutions
+          </p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web development</a>
+              </div>
+              <img src="./images/ph-1.png" alt="" />
+            </div>
+            
+        
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact <span>Me</span></h1>
+         
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./images/phone.png" alt="" />
+              <h1>Call Me On</h1>
+              <h6>+91 844 0098999</h6>
+            </div>
+            <div class="card">
+              <img src="./images/msg.png" alt="" />
+              <h1>Email Me At</h1>
+              <h6>robinsd1999@gmail.com</h6>
+            </div>
+            <div class="card">
+              <img src="./images/addr.png" alt="" />
+              <h1>Address</h1>
+              <h6>Fatehabad , Haryana</h6>
+            </div>
+          </div>
+
+          <form action="">
+            <div class="input-wrap">
+              <input type="text" placeholder="Your Name *" />
+              <input type="email" placeholder="Your Email *" />
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject..." />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Your Message..."
+              ></textarea>
+            </div>
+            <div class="btn-wrapper">
+              <button class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+       
+        <div class="footer-socials">
+          <a href="#"><img src="./images/website.svg" alt="" /></a>
+          <a href="https://www.facebook.com/codersgyan"
+            ><img src="./images/facebook.svg" alt=""
+          /></a>
+          <a href="https://twitter.com/CoderGyan">
+            <img src="./images/twitter.svg" alt=""
+          /></a>
+          <a href="#"> <img src="./images/pintrest.svg" alt="" /></a>
+          <a href="https://www.instagram.com/codersgyan/">
+            <img src="./images/instagram.svg" alt=""
+          /></a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
